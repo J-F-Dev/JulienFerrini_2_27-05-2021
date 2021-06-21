@@ -1,0 +1,67 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+#boxBody {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+/*Start Header*/
+#boxHeader {
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+/*Start Logo*/
+#boxLogo {
+    display: flex;
+    align-items: center;
+}
+#sizeLogo {
+    width: 90px;
+    height: auto;
+}
+/*End Logo*/
+
+/*Start Nav*/
+#boxNav {
+    display: flex;   
+}
+.boxLink {
+    display: flex;
+    align-items: center;
+}
+#linkHebergements {
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-top: 2px blue solid;
+}
+#linkActivites {
+    font-weight: 500;
+    font-size: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#linkInscrire {
+    font-weight: 700;
+    font-size: 15px;
+    padding-left: 15px;
+}
+.navDeco {
+    text-decoration: none;
+}
+#colorHebergements{
+    color: #0065FC;
+}
+#colorActivites {
+    color: black;
+}
+#colorInscrire {
+    color: #0065FC;
+}
+/*End Nav*/
+
+/*End Header*/
