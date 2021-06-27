@@ -1,10 +1,16 @@
 body {
     font-family: 'Raleway', sans-serif;
+    
+}
+a {
+    text-decoration: none;
+    color: black;
 }
 #boxBody {
+    max-width: 1064px;
+    margin: 0 auto;
+
     
-    margin-left: 3%;
-    margin-right: 3%;
 }
 /*Start Header*/
 #boxHeader {
@@ -35,22 +41,22 @@ body {
     align-items: center;
 }
 #linkHebergements {
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 500;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
     border-top: 2px blue solid;
 }
 #linkActivites {
     font-weight: 500;
-    font-size: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
+    font-size: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 #linkInscrire {
     font-weight: 700;
-    font-size: 15px;
-    padding-left: 15px;
+    font-size: 14px;
+    padding-left: 20px;
 }
 .navDeco {
     text-decoration: none;
@@ -85,14 +91,14 @@ body {
 
 }
 #boxTitreSection1 h1 {
-    font-size: 20px;
+    font-size: 17px;
     margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 5px;
 }
 #boxTitreSection1 p {
-    font-size: 15px;
+    font-size: 12.5px;
     margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 5px;
 }
 /*End Title*/
 
@@ -104,9 +110,9 @@ body {
 #borderSearchIcone {
     display: flex;
     background-color: #F2F2F2;
-    padding: 12px;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     border: 2px #F2F2F2 solid;
     border-radius: 10px 0px 0px 10px;
 }
@@ -119,10 +125,10 @@ body {
     border: 1px #F2F2F2 solid;
 }
 #search {
-    font-size: 15px;
+    font-size: 14px;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    padding-right: 25px;
+    
     border: 1px #F2F2F2 solid;
 }
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
@@ -151,7 +157,7 @@ body {
     display: flex;
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 14px;
     padding-right: 11px;
     padding-left: 11px;
     color: rgb(255, 255, 255);
@@ -172,11 +178,12 @@ body {
 #boxFiltres {
     display: flex;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 15px;
+    margin-bottom: 10px;
 }
 #boxFiltres h3 {
     margin-right: 15px;
-    font-size: 15px;
+    font-size: 14px;
 }
 .filtres {
     display: flex;
@@ -187,8 +194,8 @@ body {
     border-left: 1px white solid;
     border-radius: 25px 25px 25px 25px;
     height: 36px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 10px ;
+    margin-right: 10px ;
 }
 .filtres:hover {
     cursor: pointer;
@@ -211,29 +218,35 @@ body {
     background-color: #DEEBFF;
     border-radius: 30px;
     padding: 12px;
+    
 }
 #money {
     padding-left: 10px;
     padding-right: 10px;
 }
 #child {
-   padding-right: 15px;
-   padding-left: 15px;
+   padding-right: 14px;
+   padding-left: 14px;
 }
 .texteFiltres {
     font-weight: 700;
-    font-size: 18px;
-    margin: 15px;
+    font-size: 14px;
+    margin: 10px;
+    margin-left: 8px;
+    margin-right: 15px;
+    
 }
+
 /*End Filtres*/
 
 /*Start Info*/
 #boxInfo {
     display: flex;
     align-items: center;
+    margin-bottom: 15px;
 }
 #boxInfo p {
-    font-size: 15px;
+    font-size: 12px;
 }
 .iconeInfo {
     color: #0065FC;
@@ -246,3 +259,242 @@ body {
 }
 /*End Info*/
 /*End Section 1*/
+
+/*Start Section 2*/
+#boxSection2 {
+    
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.boxStar {
+    display: flex;
+    font-size: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.boxStarPopulaires {
+    margin-top: 15px;
+}
+.colorStar {
+    color: #0065FC;
+}
+.colorGreyStar {
+    color: #F2F2F2;
+}
+/*--Start Box 1 "Hébergement à Marseille"*/
+#box1Section2 {
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px 15px 15px 15px;
+    padding: 25px;
+    max-width: 640px;
+    width: 65%;
+}
+
+/*Start Box Title "Hébergement à Marseille"*/
+#box1TitleSection2 {
+    display: flex;
+}
+#box1TitleSection2 h2 {
+    font-size: 17px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+/*End Box Title "Hébergement à Marseille"*/
+
+/*Start Line 1 "Hébergement à Marseille"*/
+#boxLigne1Box1Section2 {
+    display: flex;
+    justify-content: space-between;
+}
+.boxHebergements {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 15px 15px 15px 15px;
+    width: 100%;
+    min-width: 180px;
+    padding: 4px;
+}
+
+#imgHebergements1 {
+    background-image: url("img/hebergements/small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0px 0px;
+    width: 100%;
+    height: 85px;
+}
+#imgHebergements2 {
+    background-image: url("img/hebergements/small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0px 0px;
+    width: 100%;
+    height: 85px;
+}
+#imgHebergements3 {
+    background-image: url("img/hebergements/small/reisetopia-B8WIgxA_PFU-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0px 0px;
+    width: 100%;
+    height: 85px;
+}
+.txtHebergements {
+    display: flex;
+    flex-direction: column;
+    padding-left: 8px;
+}
+.txtHebergements h3 {
+    font-size: 14px;
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+.txtHebergements p {
+    font-size: 12px;
+    margin-top: 3px;
+    margin-bottom: 0px;
+}
+/*End Line 1 "Hébergement à Marseille"*/
+
+/*Start Line 2 "Hébergement à Marseille"*/
+#boxLigne2Box1Section2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+#imgHebergements4 {
+    background-image: url("img/hebergements/small/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0px 0px;
+    width: 100%;
+    height: 85px;
+}
+#imgHebergements5 {
+    background-image: url("img/hebergements/small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0px 0px;
+    width: 100%;
+    height: 85px;
+}
+#imgHebergements6 {
+    background-image: url("img/hebergements/small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0px 0px;
+    width: 100%;
+    height: 85px;
+}
+/*End Line 2 "Hébergement à Marseille"*/
+
+/*Start Line Afficher "Hébergement à Marseille"*/
+#boxAfficher {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+#styleAfficher {
+    font-weight: 700;
+    font-size: 15px;
+}
+/*End Line Afficher "Hébergements à Marseille*/
+
+/*End Box 1 "Hébergements à Marseille*/
+
+/*Start Box 2 "Les plus populaires"*/
+#box2Section2 {
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px 15px 15px 15px;
+    padding: 25px;
+    max-width: 250px;
+    width: 30%;
+}
+
+/*Start Box Title "Les plus populaires"*/
+#box2TitleSection2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+#box2TitleSection2 h2 {
+    font-size: 17px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+#sizeChartIcone {
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+/*End Box Title "Les plus populaires"*/
+
+/*Start Line 1 "Les plus populaires*/
+.box2Populaires {
+    display: flex;
+    background-color: white;
+    border-radius: 15px 15px 15px 15px;
+    width: 100%;
+    padding: 4px;
+}
+#boxLine2Box2Section2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+#imgPopulaires1 {
+    background-image: url("img/hebergements/small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 0px 0px 15px;
+    width: 30%;
+    min-width: 90px;
+    height: 100px;
+}
+#imgPopulaires2 {
+    background-image: url("img/hebergements/small/aw-creative-VGs8z60yT2c-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 0px 0px 15px;
+    width: 30%;
+    min-width: 90px;
+    height: 100px;
+}
+#imgPopulaires3 {
+    background-image: url("img/hebergements/small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 0px 0px 15px;
+    width: 30%;
+    min-width: 90px;
+    height: 100px;
+}
+.txtPopulaires {
+    display: flex;
+    flex-direction: column;
+    padding-left: 8px;
+}
+.txtPopulaires h3 {
+    font-size: 14px;
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+.txtPopulaires p {
+    font-size: 12px;
+    margin-top: 3px;
+    
+}
+
+/*End Line 1 "Les plus populaires*/
+
+/*End Section 2*/
+
