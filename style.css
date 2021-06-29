@@ -6,7 +6,7 @@ a {
     text-decoration: none;
     color: black;
 }
-#boxBody {
+.boxBody {
     max-width: 1064px;
     margin: 0 auto;
 
@@ -600,5 +600,35 @@ a {
     border-radius: 15px 15px 0px 0px;
 }
 
+/*End Section 3*/
 
+/*Start Footer*/
 
+#footerBack {
+    background-color: #F2F2F2;
+    height: 160px;
+    margin-top: 50px;
+}
+#boxFooter {
+    display: flex;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-top: 20px;
+}
+.boxTxtFooter {
+    display: flex;
+    flex-direction: column;
+    margin-right: 15%;
+}
+#boxTxtFooter2 {
+    margin-right: 22%;
+}
+.boxTxtFooter h3 {
+    font-size: 15px;
+}
+.boxTxtFooter a {
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+
+/*End Footer*/
