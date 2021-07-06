@@ -1,634 +1,979 @@
 body {
-    font-family: 'Raleway', sans-serif;
-    
+  font-family: "Raleway", sans-serif;
 }
 a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 .boxBody {
-    max-width: 1064px;
-    margin: 0 auto;
-
-    
+  max-width: 1064px;
+  margin: 0 auto;
 }
 /*Start Header*/
 #boxHeader {
-    
-    display: flex;
-    height: 70px;
-    justify-content: space-between;
-    margin-left: 2%;
-    margin-right: 2%;
+  display: flex;
+  height: 70px;
+  justify-content: space-between;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 /*Start Logo*/
 #boxLogo {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 #sizeLogo {
-    width: 90px;
-    height: auto;
+  width: 90px;
+  height: auto;
 }
 /*End Logo*/
-
 /*Start Nav*/
 #boxNav {
-    display: flex;   
+  display: flex;
 }
 .boxLink {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 #linkHebergements {
-    font-size: 14px;
-    font-weight: 500;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-top: 2px blue solid;
+  font-size: 14px;
+  font-weight: 500;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-top: 2px #0065fc solid;
 }
 #linkActivites {
-    font-weight: 500;
-    font-size: 14px;
-    padding-left: 20px;
-    padding-right: 20px;
+  font-weight: 500;
+  font-size: 14px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 #linkInscrire {
-    font-weight: 700;
-    font-size: 14px;
-    padding-left: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  padding-left: 20px;
 }
 .navDeco {
-    text-decoration: none;
+  text-decoration: none;
 }
-#colorHebergements{
-    color: #0065FC;
+#colorHebergements {
+  color: #0065fc;
 }
 #colorActivites {
-    color: black;
+  color: black;
 }
 #colorInscrire {
-    color: #0065FC;
+  color: #0065fc;
 }
 /*End Nav*/
 /*End Header*/
-
 /*Start Section 1*/
 #boxSection1 {
-    
-    display: flex;
-    flex-direction: column;
-    margin-left: 2%;
-    margin-right: 2%;
-    margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 5px;
 }
 /*Start Title*/
 #boxTitreSection1 {
-    
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 5px;
-
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
 }
 #boxTitreSection1 h1 {
-    font-size: 17px;
-    margin-top: 0px;
-    margin-bottom: 5px;
+  font-size: 17px;
+  margin-top: 0px;
+  margin-bottom: 5px;
 }
 #boxTitreSection1 p {
-    font-size: 12.5px;
-    margin-top: 0px;
-    margin-bottom: 5px;
+  font-size: 12.5px;
+  margin-top: 0px;
+  margin-bottom: 5px;
 }
 /*End Title*/
-
 /*Start search*/
 #boxRechercheSection1 {
-    display: flex;
-    margin-top: 5px;
+  display: flex;
+  margin-top: 5px;
 }
 #borderSearchIcone {
-    display: flex;
-    background-color: #F2F2F2;
-    padding: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    border: 2px #F2F2F2 solid;
-    border-radius: 10px 0px 0px 10px;
+  display: flex;
+  background-color: #f2f2f2;
+  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 2px #f2f2f2 solid;
+  border-radius: 10px 0px 0px 10px;
 }
 #searchIcone {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
+}
+#iconeSearchResponsive {
+  display: none;
+}
+#borderSearchResponsive {
+  display: flex;
 }
 #borderSearch {
-    display: flex;
-    border: 1px #F2F2F2 solid;
+  display: flex;
+  border: 1px #f2f2f2 solid;
 }
 #search {
-    font-size: 14px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    
-    border: 1px #F2F2F2 solid;
+  font-size: 14px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  border: 1px #f2f2f2 solid;
 }
-::-webkit-input-placeholder { /* WebKit, Blink, Edge */
-    color:    rgb(0, 0, 0);
-}
-:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-   color:    rgb(0, 0, 0);
-   opacity:  1;
-}
-::-moz-placeholder { /* Mozilla Firefox 19+ */
-   color:    rgb(0, 0, 0);
-   opacity:  1;
-}
-:-ms-input-placeholder { /* Internet Explorer 10-11 */
-   color:    rgb(0, 0, 0);
-}
-::-ms-input-placeholder { /* Microsoft Edge */
-   color:    rgb(0, 0, 0);
-}
-
-::placeholder { /* Most modern browsers support this now. */
-   color:    rgb(0, 0, 0);
-}
-
 #button {
-    display: flex;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    padding-right: 11px;
-    padding-left: 11px;
-    color: rgb(255, 255, 255);
-    background-color: #0065FC;
-    margin: 2px;
-    border: 2px #0065FC solid;
-    cursor: pointer;
+  display: flex;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  padding-right: 11px;
+  padding-left: 11px;
+  color: rgb(255, 255, 255);
+  background-color: #0065fc;
+  margin: 2px;
+  border: 2px #0065fc solid;
+  cursor: pointer;
 }
 #borderButton {
-    display: flex;
-    border: 2px #0065FC solid;
-    background-color: #0065FC;
-    border-radius: 0px 10px 10px 0px;
+  display: flex;
+  border: 2px #0065fc solid;
+  background-color: #0065fc;
+  border-radius: 0px 10px 10px 0px;
 }
 /*End search*/
-
 /*Start Filtres*/
 #boxFiltres {
-    display: flex;
-    align-items: center;
-    margin-top: 15px;
-    margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+#filtresResponsive {
+  display: flex;
 }
 #boxFiltres h3 {
-    margin-right: 15px;
-    font-size: 14px;
+  margin-right: 15px;
+  font-size: 14px;
 }
 .filtres {
-    display: flex;
-    align-items: center;
-    border-top: 1px #F2F2F2 solid;
-    border-bottom: 1px #F2F2F2 solid;
-    border-right: 1px #F2F2F2 solid;
-    border-left: 1px white solid;
-    border-radius: 25px 25px 25px 25px;
-    height: 36px;
-    margin-left: 10px ;
-    margin-right: 10px ;
+  display: flex;
+  align-items: center;
+  border-top: 1px #f2f2f2 solid;
+  border-bottom: 1px #f2f2f2 solid;
+  border-right: 1px #f2f2f2 solid;
+  border-left: 1px white solid;
+  border-radius: 25px 25px 25px 25px;
+  height: 36px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .filtres:hover {
-    cursor: pointer;
-    border-top-color: #DEEBFF;
-    border-bottom-color: #DEEBFF;
-    border-right-color: #DEEBFF;
-    border-left-color: white;
-    background-color: #DEEBFF;
-    transition: 1.4s;
-    
+  cursor: pointer;
+  border-top-color: #deebff;
+  border-bottom-color: #deebff;
+  border-right-color: #deebff;
+  border-left-color: white;
+  background-color: #deebff;
+  transition: 1.4s;
 }
 .filtres:hover .icone {
-    background-color: white;
-    transition: 1s;
-    transform: rotate(360deg);
+  background-color: white;
+  transition: 1s;
+  transform: rotate(360deg);
 }
-
 .icone {
-    color: #0065FC;
-    background-color: #DEEBFF;
-    border-radius: 30px;
-    padding: 12px;
-    
+  color: #0065fc;
+  background-color: #deebff;
+  border-radius: 30px;
+  padding: 12px;
 }
 #money {
-    padding-left: 10px;
-    padding-right: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 #child {
-   padding-right: 14px;
-   padding-left: 14px;
+  padding-right: 14px;
+  padding-left: 14px;
 }
 .texteFiltres {
-    font-weight: 700;
-    font-size: 14px;
-    margin: 10px;
-    margin-left: 8px;
-    margin-right: 15px;
-    
+  font-weight: 700;
+  font-size: 14px;
+  margin: 10px;
+  margin-left: 8px;
+  margin-right: 15px;
 }
-
 /*End Filtres*/
-
 /*Start Info*/
 #boxInfo {
-    display: flex;
-    align-items: center;
-    margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
 }
 #boxInfo p {
-    font-size: 12px;
+  font-size: 12px;
 }
 .iconeInfo {
-    color: #0065FC;
-    border: 2px #F2F2F2 solid;
-    border-radius: 25px 25px 25px 25px;
-    padding: 3px;
-    padding-right: 7px;
-    padding-left: 7px;
-    margin-right: 10px;
+  color: #0065fc;
+  border: 2px #f2f2f2 solid;
+  border-radius: 25px 25px 25px 25px;
+  padding: 3px;
+  padding-right: 7px;
+  padding-left: 7px;
+  margin-right: 10px;
 }
 /*End Info*/
 /*End Section 1*/
-
 /*Start Section 2*/
 #boxSection2 {
-    
-    display: flex;
-    justify-content: space-between;
-    margin-left: 2%;
-    margin-right: 2%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 .boxStar {
+  display: flex;
+  font-size: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.boxStarPopulaires {
+  margin-top: 15px;
+}
+.colorStar {
+  color: #0065fc;
+}
+.colorGreyStar {
+  color: #f2f2f2;
+}
+/*--Start Box 1 "Hébergement à Marseille"*/
+#box1Section2 {
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px 15px 15px 15px;
+  padding: 25px;
+  max-width: 640px;
+  width: 65%;
+}
+/*Start Box Title "Hébergement à Marseille"*/
+#box1TitleSection2 {
+  display: flex;
+}
+#box1TitleSection2 h2 {
+  font-size: 17px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+/*End Box Title "Hébergement à Marseille"*/
+/*Start Line 1 "Hébergement à Marseille"*/
+#boxLigne1Box1Section2 {
+  display: flex;
+  justify-content: space-between;
+}
+.boxHebergements {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 15px 15px 15px 15px;
+  width: 100%;
+  min-width: 180px;
+
+  padding: 4px;
+}
+#imgHebergements1 {
+  background-image: url("img/hebergements/small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px 15px 0px 0px;
+  width: 100%;
+  height: 85px;
+}
+#imgHebergements2 {
+  background-image: url("img/hebergements/small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px 15px 0px 0px;
+  width: 100%;
+  height: 85px;
+}
+#imgHebergements3 {
+  background-image: url("img/hebergements/small/reisetopia-B8WIgxA_PFU-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px 15px 0px 0px;
+  width: 100%;
+  height: 85px;
+}
+.txtHebergements {
+  display: flex;
+  flex-direction: column;
+  padding-left: 8px;
+}
+.txtHebergements h3 {
+  font-size: 14px;
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+.txtHebergements p {
+  font-size: 12px;
+  margin-top: 3px;
+  margin-bottom: 0px;
+}
+/*End Line 1 "Hébergement à Marseille"*/
+/*Start Line 2 "Hébergement à Marseille"*/
+#boxLigne2Box1Section2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+#imgHebergements4 {
+  background-image: url("img/hebergements/small/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px 15px 0px 0px;
+  width: 100%;
+  height: 85px;
+}
+#imgHebergements5 {
+  background-image: url("img/hebergements/small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px 15px 0px 0px;
+  width: 100%;
+  height: 85px;
+}
+#imgHebergements6 {
+  background-image: url("img/hebergements/small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px 15px 0px 0px;
+  width: 100%;
+  height: 85px;
+}
+/*End Line 2 "Hébergement à Marseille"*/
+/*Start Line Afficher "Hébergement à Marseille"*/
+#boxAfficher {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+#styleAfficher {
+  font-weight: 700;
+  font-size: 15px;
+}
+/*End Line Afficher "Hébergements à Marseille*/
+/*End Box 1 "Hébergements à Marseille*/
+/*Start Box 2 "Les plus populaires"*/
+#box2Section2 {
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px 15px 15px 15px;
+  padding: 25px;
+  max-width: 250px;
+  width: 30%;
+}
+#box2Section2Responsive {
+  display: contents;
+}
+/*Start Box Title "Les plus populaires"*/
+#box2TitleSection2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#box2TitleSection2 h2 {
+  font-size: 17px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+#sizeChartIcone {
+  font-size: 18px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+/*End Box Title "Les plus populaires"*/
+/*Start Line 1 "Les plus populaires*/
+.box2Populaires {
+  display: flex;
+  background-color: white;
+  border-radius: 15px 15px 15px 15px;
+  width: 100%;
+  padding: 4px;
+}
+#boxLine2Box2Section2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+#imgPopulaires1 {
+  background-image: url("img/hebergements/small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px 0px 0px 15px;
+  width: 30%;
+  min-width: 90px;
+  height: 100px;
+}
+#imgPopulaires2 {
+  background-image: url("img/hebergements/small/aw-creative-VGs8z60yT2c-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px 0px 0px 15px;
+  width: 30%;
+  min-width: 90px;
+  height: 100px;
+}
+#imgPopulaires3 {
+  background-image: url("img/hebergements/small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px 0px 0px 15px;
+  width: 30%;
+  min-width: 90px;
+  height: 100px;
+}
+.txtPopulaires {
+  display: flex;
+  flex-direction: column;
+  padding-left: 8px;
+}
+.txtPopulaires h3 {
+  font-size: 14px;
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+.txtPopulaires p {
+  font-size: 12px;
+  margin-top: 3px;
+}
+/*End Line 1 "Les plus populaires*/
+/*End Section 2*/
+/*Start Section 3*/
+#boxSection3 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 35px;
+}
+#BoxLine2Activites {
+  display: flex;
+  justify-content: space-between;
+}
+#boxTitleActivites h2 {
+  font-size: 17px;
+  padding-bottom: 5px;
+}
+.boxLargeActivites {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 15px 15px 15px 15px;
+  width: 230px;
+  height: 100%;
+  box-shadow: 0px 5px 5px #f2f2f2;
+}
+.boxLargeActivites h3 {
+  margin: 10px;
+  font-size: 14px;
+}
+.boxFlexSmallActivites {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.boxSmallActivites {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 15px 15px 15px 15px;
+  width: 230px;
+  box-shadow: 0px 5px 5px #f2f2f2;
+}
+.boxSmallActivites h3 {
+  margin: 10px;
+  font-size: 14px;
+}
+#imgActivites1 {
+  background-image: url("img/activites/small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
+  background-size: 500px;
+  background-position: top;
+  width: 100%;
+  height: 290px;
+  border-radius: 15px 15px 0px 0px;
+}
+#imgActivites2 {
+  background-image: url("img/activites/small/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
+  background-size: cover;
+  background-position-y: -90px;
+  width: 100%;
+  height: 130px;
+  border-radius: 15px 15px 0px 0px;
+}
+#imgActivites3 {
+  background-image: url("img/activites/small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
+  background-size: 230px;
+  background-position-y: -20px;
+  width: 100%;
+  height: 80px;
+  border-radius: 15px 15px 0px 0px;
+}
+#imgActivites4 {
+  background-image: url("img/activites/small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
+  background-size: 500px;
+  background-position: top;
+  filter: brightness(120%);
+  width: 100%;
+  height: 290px;
+  border-radius: 15px 15px 0px 0px;
+}
+#imgActivites5 {
+  background-image: url("img/activites/small/florian-wehde-xW9e8gdotxI-unsplash.jpg");
+  background-size: 230px;
+  background-position-y: -10px;
+  width: 100%;
+  height: 80px;
+  border-radius: 15px 15px 0px 0px;
+}
+#imgActivites6 {
+  background-image: url("img/activites/small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 130px;
+  border-radius: 15px 15px 0px 0px;
+}
+/*End Section 3*/
+/*Start Footer*/
+#footerBack {
+  background-color: #f2f2f2;
+  height: 160px;
+  margin-top: 50px;
+  margin-bottom: -10px;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+#boxFooter {
+  display: flex;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding-top: 20px;
+}
+.boxTxtFooter {
+  display: flex;
+  flex-direction: column;
+  margin-right: 15%;
+}
+#boxTxtFooter2 {
+  margin-right: 22%;
+}
+.boxTxtFooter h3 {
+  font-size: 15px;
+}
+.boxTxtFooter a {
+  font-size: 12px;
+  padding-bottom: 10px;
+}
+/*End Footer*/
+/*Start Tablette*/
+@media all and (min-width: 734px) and (max-width: 1024px) {
+  #boxHeader {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+  .boxLink {
+    padding-top: 15px;
+    margin-top: 10px;
+  }
+  #linkHebergements {
+    border-top: none;
+    border-left: 2px #0065fc solid;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  #linkActivites {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  #linkInscrire {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  #boxTitreSection1 {
+    align-items: center;
+  }
+  #boxSection1 {
+    align-items: center;
+    margin-top: 20px;
+  }
+  #boxFiltres {
+    flex-direction: column;
+  }
+  #boxSection2 {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  #box2Section2 {
+    width: 100%;
+    max-width: 1024px;
+    margin-bottom: 20px;
+  }
+  .box2Populaires {
+    width: 450px;
+  }
+  .boxStar {
     display: flex;
     font-size: 10px;
     margin-top: 5px;
     margin-bottom: 5px;
-}
-.boxStarPopulaires {
-    margin-top: 15px;
-}
-.colorStar {
-    color: #0065FC;
-}
-.colorGreyStar {
-    color: #F2F2F2;
-}
-/*--Start Box 1 "Hébergement à Marseille"*/
-#box1Section2 {
-    background-color: #F2F2F2;
-    display: flex;
-    flex-direction: column;
-    border-radius: 15px 15px 15px 15px;
-    padding: 25px;
-    max-width: 640px;
-    width: 65%;
-}
-
-/*Start Box Title "Hébergement à Marseille"*/
-#box1TitleSection2 {
-    display: flex;
-}
-#box1TitleSection2 h2 {
-    font-size: 17px;
-    margin-top: 0px;
-    margin-bottom: 20px;
-}
-/*End Box Title "Hébergement à Marseille"*/
-
-/*Start Line 1 "Hébergement à Marseille"*/
-#boxLigne1Box1Section2 {
-    display: flex;
-    justify-content: space-between;
-}
-.boxHebergements {
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    border-radius: 15px 15px 15px 15px;
-    width: 100%;
-    min-width: 180px;
-    padding: 4px;
-}
-
-#imgHebergements1 {
-    background-image: url("img/hebergements/small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
-    background-size: cover;
-    background-position: center;
-    border-radius: 15px 15px 0px 0px;
-    width: 100%;
-    height: 85px;
-}
-#imgHebergements2 {
-    background-image: url("img/hebergements/small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
-    background-size: cover;
-    background-position: center;
-    border-radius: 15px 15px 0px 0px;
-    width: 100%;
-    height: 85px;
-}
-#imgHebergements3 {
-    background-image: url("img/hebergements/small/reisetopia-B8WIgxA_PFU-unsplash.jpg");
-    background-size: cover;
-    background-position: center;
-    border-radius: 15px 15px 0px 0px;
-    width: 100%;
-    height: 85px;
-}
-.txtHebergements {
-    display: flex;
-    flex-direction: column;
-    padding-left: 8px;
-}
-.txtHebergements h3 {
-    font-size: 14px;
-    margin-bottom: 0px;
-    margin-top: 5px;
-}
-.txtHebergements p {
-    font-size: 12px;
-    margin-top: 3px;
-    margin-bottom: 0px;
-}
-/*End Line 1 "Hébergement à Marseille"*/
-
-/*Start Line 2 "Hébergement à Marseille"*/
-#boxLigne2Box1Section2 {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-}
-#imgHebergements4 {
-    background-image: url("img/hebergements/small/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
-    background-size: cover;
-    background-position: center;
-    border-radius: 15px 15px 0px 0px;
-    width: 100%;
-    height: 85px;
-}
-#imgHebergements5 {
-    background-image: url("img/hebergements/small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
-    background-size: cover;
-    background-position: center;
-    border-radius: 15px 15px 0px 0px;
-    width: 100%;
-    height: 85px;
-}
-#imgHebergements6 {
-    background-image: url("img/hebergements/small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
-    background-size: cover;
-    background-position: center;
-    border-radius: 15px 15px 0px 0px;
-    width: 100%;
-    height: 85px;
-}
-/*End Line 2 "Hébergement à Marseille"*/
-
-/*Start Line Afficher "Hébergement à Marseille"*/
-#boxAfficher {
-    display: flex;
-    margin-top: 30px;
+  }
+  .boxStarPopulaires {
+    margin-top: 35px;
+  }
+  #boxLine2Box2Section2 {
+    align-items: center;
+  }
+  #box2TitleSection2 {
+    justify-content: center;
+  }
+  #box2TitleSection2 h2 {
+    margin-right: 275px;
+  }
+  #imgPopulaires2Responsive {
+    margin-top: 10px;
     margin-bottom: 10px;
-}
-#styleAfficher {
-    font-weight: 700;
-    font-size: 15px;
-}
-/*End Line Afficher "Hébergements à Marseille*/
-
-/*End Box 1 "Hébergements à Marseille*/
-
-/*Start Box 2 "Les plus populaires"*/
-#box2Section2 {
-    background-color: #F2F2F2;
+  }
+  #box1Section2 {
+    max-width: 1024px;
+    width: 100%;
+  }
+  .boxHebergements {
+    width: 14rem;
+  }
+  #box1TitleSection2 {
+    display: flex;
+    justify-content: center;
+  }
+  #BoxLine2Activites {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 550px;
+  }
+  #boxSection3 {
+    align-items: center;
+  }
+  #box1Section3 {
     display: flex;
     flex-direction: column;
-    border-radius: 15px 15px 15px 15px;
-    padding: 25px;
-    max-width: 250px;
-    width: 30%;
-}
+    align-items: center;
+  }
 
-/*Start Box Title "Les plus populaires"*/
-#box2TitleSection2 {
+  #orderActivites1 {
+    order: 1;
+  }
+  #orderActivites2 {
+    order: 2;
+  }
+  #orderActivites3 {
+    order: 4;
+    margin-top: 40px;
+  }
+  #orderActivites4 {
+    order: 3;
+    margin-top: 40px;
+  }
+  #boxFooter {
+    justify-content: space-between;
+  }
+  .boxTxtFooter {
+    margin-right: 0%;
+  }
+  #boxTxtFooter2 {
+    margin-right: 0%;
+  }
+}
+/*End Tablette*/
+/*Start Mobile*/
+@media all and (max-width: 733px) {
+  .boxBody {
+    display: contents;
+  }
+  #boxNav {
+    display: contents;
+  }
+  #boxHeader {
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  #linkHebergements {
+    display: flex;
+    height: auto;
+    justify-content: center;
+    margin-top: 10px;
+    border-bottom: 2px #0065fc solid;
+    border-top: none;
+    padding-left: 0px;
+    padding-right: 0px;
+    order: 3;
+    width: 50%;
+    padding-bottom: 10px;
+  }
+  #linkActivites {
+    display: flex;
+    order: 4;
+    height: auto;
+    justify-content: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 50%;
+    border-bottom: 2px #f2f2f2 solid;
+    margin-top: 10px;
+    padding-bottom: 10px;
+  }
+  #linkInscrire {
+    display: flex;
+
+    order: 2;
+  }
+  #boxLogo {
+    margin-right: 10.81rem;
+    order: 1;
+  }
+  #boxTitreSection1 h1 {
+    margin-right: 80px;
+  }
+  #boxTitreSection1 {
+    margin-top: 15px;
+  }
+  #button {
+    display: none;
+  }
+  #boxRechercheSection1 {
+    justify-content: center;
+  }
+  #iconeSearchResponsive {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    
-}
-#box2TitleSection2 h2 {
-    font-size: 17px;
-    margin-top: 0px;
-    margin-bottom: 20px;
-}
-#sizeChartIcone {
-    font-size: 18px;
-    margin-top: 0px;
-    margin-bottom: 20px;
-}
-/*End Box Title "Les plus populaires"*/
-
-/*Start Line 1 "Les plus populaires*/
-.box2Populaires {
-    display: flex;
-    background-color: white;
+    color: white;
+    padding: 10px;
+    background-color: #0065fc;
+    border: none;
+    border-radius: 25px 25px 25px 25px;
+    cursor: pointer;
+  }
+  #borderButton {
+    border-radius: 13px 13px 13px 13px;
+  }
+  #borderSearchResponsive {
+    border: 1px #f2f2f2 solid;
     border-radius: 15px 15px 15px 15px;
-    width: 100%;
-    padding: 4px;
-}
-#boxLine2Box2Section2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
-}
-#imgPopulaires1 {
-    background-image: url("img/hebergements/small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
-    background-size: cover;
-    background-position: center;
-    border-radius: 15px 0px 0px 15px;
-    width: 30%;
-    min-width: 90px;
-    height: 100px;
-}
-#imgPopulaires2 {
-    background-image: url("img/hebergements/small/aw-creative-VGs8z60yT2c-unsplash.jpg");
-    background-size: cover;
-    background-position: center;
-    border-radius: 15px 0px 0px 15px;
-    width: 30%;
-    min-width: 90px;
-    height: 100px;
-}
-#imgPopulaires3 {
-    background-image: url("img/hebergements/small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
-    background-size: cover;
-    background-position: center;
-    border-radius: 15px 0px 0px 15px;
-    width: 30%;
-    min-width: 90px;
-    height: 100px;
-}
-.txtPopulaires {
-    display: flex;
-    flex-direction: column;
-    padding-left: 8px;
-}
-.txtPopulaires h3 {
-    font-size: 14px;
-    margin-bottom: 0px;
+    border-right-color: white;
+  }
+  #borderSearchIcone {
+    border: none;
+  }
+  #searchIcone {
+    border: 1px #f2f2f2 solid;
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+  #borderSearch {
+    border: none;
+  }
+  #search {
+    border: none;
+    width: 200px;
+  }
+  #boxFiltres {
+    flex-wrap: wrap;
+  }
+  #boxFiltres h3 {
+    margin-right: 300px;
+  }
+  .filtres {
+    margin-left: 0px;
+    margin-bottom: 10px;
+  }
+  .filtresMarginResponsive {
+    margin-right: 10px;
+  }
+  #filtresResponsive {
+    flex-wrap: wrap;
+    width: 500px;
+  }
+  #boxInfo {
+    align-items: initial;
+  }
+  #boxInfo p {
     margin-top: 5px;
-}
-.txtPopulaires p {
-    font-size: 12px;
-    margin-top: 3px;
-    
-}
-
-/*End Line 1 "Les plus populaires*/
-
-/*End Section 2*/
-
-/*Start Section 3*/
-#boxSection3 {
+  }
+  #infoWrapResponsive {
+    width: 250px;
+  }
+  #boxSection2 {
+    flex-direction: column-reverse;
+    margin-left: -10px;
+    margin-right: -10px;
+    align-items: center;
+  }
+  .boxStar {
     display: flex;
-    flex-direction: column;
-    margin-left: 2%;
-    margin-right: 2%;
-    margin-top: 35px;
-}
-#BoxLine2Activites {
+    font-size: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .boxStarPopulaires {
+    margin-top: 15px;
+  }
+  .txtPopulaires {
+    max-width: 150px;
+    margin-left: 10px;
+  }
+  #box2Section2 {
+    max-width: 320px;
+    width: 100%;
+    margin-bottom: 0px;
+    border-radius: 0px 0px 0px 0px;
+  }
+  #box2Section2Responsive {
     display: flex;
-    justify-content: space-between;
-    
-}
-
-#boxTitleActivites h2 {
-    font-size: 17px;
-    padding-bottom: 5px;
-}
-.boxLargeActivites {
-    display: flex;
-    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    background-color: #f2f2f2;
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+  .box2Populaires {
+    margin-bottom: 10px;
+    max-width: 310px;
+  }
+  #box1Section2 {
+    max-width: 320px;
+    width: 100%;
     background-color: white;
-    border-radius: 15px 15px 15px 15px;
-    width: 230px;
-    height: 100%;
-    box-shadow: 0px 5px 5px #F2F2F2;
-    
-    
-}
-.boxLargeActivites h3 {
-    margin: 10px ;
-    font-size: 14px;
-}
-.boxFlexSmallActivites {
+    padding-bottom: 0px;
+  }
+  #boxLigne1Box1Section2 {
+    flex-direction: column;
+  }
+  #boxLigne2Box1Section2 {
+    flex-direction: column;
+  }
+  .boxHebergements {
+    box-shadow: 1px 5px 5px #f2f2f2;
+    margin-bottom: 20px;
+    max-width: 310px;
+  }
+  #imgHebergements1 {
+    height: 100px;
+  }
+  #imgHebergements2 {
+    height: 100px;
+  }
+  #imgHebergements3 {
+    height: 100px;
+  }
+  #imgHebergements4 {
+    height: 100px;
+  }
+  #imgHebergements5 {
+    height: 100px;
+  }
+  #imgHebergements6 {
+    height: 100px;
+  }
+  #boxLigne2Box1Section2 {
+    margin-top: 0px;
+  }
+  #boxAfficher {
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+  #BoxLine2Activites {
+    flex-direction: column;
+  }
+  #boxSection3 {
+    align-items: center;
+  }
+  #box1Section3 {
+    padding: 25px;
+    max-width: 320px;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-}
-.boxSmallActivites {
-    display: flex;
-    flex-direction: column;
-    
-    
-    background-color: white;
-    border-radius: 15px 15px 15px 15px;
-    width: 230px;
-    
-    box-shadow: 0px 5px 5px #F2F2F2;
-}
-.boxSmallActivites h3{
-    margin: 10px;
-    font-size: 14px;
-}
-#imgActivites1 {
-    background-image: url("img/activites/xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
-    background-size: 500px;
+    padding-top: 0px;
+  }
+  .boxLargeActivites {
+    width: 100%;
+    margin-bottom: 20px;
+    box-shadow: 1px 5px 5px #f2f2f2;
+  }
+  .boxSmallActivites {
+    width: 100%;
+    margin-bottom: 20px;
+    box-shadow: 1px 5px 5px #f2f2f2;
+  }
+  .boxLargeActivites h3 {
+    margin: 15px;
+  }
+  .boxSmallActivites h3 {
+    margin: 15px;
+  }
+  #imgActivites1 {
+    height: 120px;
+    background-size: 100%;
     background-position: top;
-    width: 100%;
-    height: 290px;
-    border-radius: 15px 15px 0px 0px;
-}
-#imgActivites2 {
-    background-image: url("img/activites/small/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
-    background-size: cover;
-    background-position-y: -90px;
-    width: 100%;
-    height: 130px;
-    border-radius: 15px 15px 0px 0px;
-}
-#imgActivites3 {
-    background-image: url("img/activites/xlarge/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
-    background-size: 230px;
     background-position-y: -20px;
-    width: 100%;
-    height: 80px;
-    border-radius: 15px 15px 0px 0px;
-}
-#imgActivites4 {
-    background-image: url("img/activites/xlarge/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
-    background-size: 500px;
-    background-position: top;
-    filter: brightness(120%);
-    width: 100%;
-    height: 290px;
-    border-radius: 15px 15px 0px 0px;
-}
-#imgActivites5 {
-    background-image: url("img/activites/xlarge/florian-wehde-xW9e8gdotxI-unsplash.jpg");
-    background-size: 230px;
-    background-position-y: -10px;
-    width: 100%;
-    height: 80px;
-    border-radius: 15px 15px 0px 0px;
-}
-#imgActivites6 {
-    background-image: url("img/activites/small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
+  }
+  #imgActivites2 {
+    height: 120px;
+    background-position-y: -160px;
+  }
+  #imgActivites3 {
+    height: 120px;
     background-size: cover;
-    width: 100%;
-    height: 130px;
-    border-radius: 15px 15px 0px 0px;
-}
-
-/*End Section 3*/
-
-/*Start Footer*/
-
-#footerBack {
-    background-color: #F2F2F2;
-    height: 160px;
-    margin-top: 50px;
-}
-#boxFooter {
-    display: flex;
-    margin-left: 2%;
-    margin-right: 2%;
-    padding-top: 20px;
-}
-.boxTxtFooter {
+  }
+  #imgActivites4 {
+    height: 120px;
+    background-size: cover;
+    background-position-y: -25px;
+  }
+  #imgActivites5 {
+    height: 120px;
+    background-size: cover;
+  }
+  #imgActivites6 {
+    height: 120px;
+    background-position: top;
+    background-position-y: -35px;
+  }
+  #footerBack {
+    margin-top: 0px;
+    margin-left: -10px;
+    margin-right: -10px;
+    height: auto;
+    margin-bottom: -10px;
+  }
+  #boxFooter {
+    flex-wrap: wrap;
+    padding: 25px;
+  }
+  .boxTxtFooter {
     display: flex;
     flex-direction: column;
-    margin-right: 15%;
-}
-#boxTxtFooter2 {
-    margin-right: 22%;
-}
-.boxTxtFooter h3 {
-    font-size: 15px;
-}
-.boxTxtFooter a {
-    font-size: 12px;
-    padding-bottom: 10px;
-}
+    margin-right: 60px;
+  }
 
-/*End Footer*/
+  #boxTxtFooter2 {
+    margin-right: 80px;
+  }
+}
+/*End Mobile*/
