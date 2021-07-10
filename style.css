@@ -115,17 +115,19 @@ a {
 }
 #borderSearchResponsive {
   display: flex;
+  border: 1px #f2f2f2 solid;
+  border-radius: 15px 15px 15px 15px;
 }
 #borderSearch {
   display: flex;
-  border: 1px #f2f2f2 solid;
 }
 #search {
   font-size: 14px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
-  border: 1px #f2f2f2 solid;
+  border: none;
 }
+
 #button {
   display: flex;
   font-family: "Raleway", sans-serif;
