@@ -284,29 +284,24 @@ a {
   border-radius: 15px 15px 15px 15px;
   width: 100%;
   min-width: 180px;
-
+  max-width: 180px;
   padding: 4px;
+  box-shadow: 0px 5px 5px #f2f2f2;
 }
 #imgHebergements1 {
-  background-image: url("img/hebergements/small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
-  background-size: cover;
-  background-position: center;
   border-radius: 15px 15px 0px 0px;
   width: 100%;
   height: 85px;
+  object-fit: cover;
 }
 #imgHebergements2 {
-  background-image: url("img/hebergements/small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
-  background-size: cover;
-  background-position: center;
+  object-fit: cover;
   border-radius: 15px 15px 0px 0px;
   width: 100%;
   height: 85px;
 }
 #imgHebergements3 {
-  background-image: url("img/hebergements/small/reisetopia-B8WIgxA_PFU-unsplash.jpg");
-  background-size: cover;
-  background-position: center;
+  object-fit: cover;
   border-radius: 15px 15px 0px 0px;
   width: 100%;
   height: 85px;
@@ -334,25 +329,19 @@ a {
   margin-top: 20px;
 }
 #imgHebergements4 {
-  background-image: url("img/hebergements/small/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
-  background-size: cover;
-  background-position: center;
+  object-fit: cover;
   border-radius: 15px 15px 0px 0px;
   width: 100%;
   height: 85px;
 }
 #imgHebergements5 {
-  background-image: url("img/hebergements/small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
-  background-size: cover;
-  background-position: center;
+  object-fit: cover;
   border-radius: 15px 15px 0px 0px;
   width: 100%;
   height: 85px;
 }
 #imgHebergements6 {
-  background-image: url("img/hebergements/small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
-  background-size: cover;
-  background-position: center;
+  object-fit: cover;
   border-radius: 15px 15px 0px 0px;
   width: 100%;
   height: 85px;
@@ -415,27 +404,21 @@ a {
   height: 100%;
 }
 #imgPopulaires1 {
-  background-image: url("img/hebergements/small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
-  background-size: cover;
-  background-position: center;
+  object-fit: cover;
   border-radius: 15px 0px 0px 15px;
   width: 30%;
   min-width: 90px;
   height: 100px;
 }
 #imgPopulaires2 {
-  background-image: url("img/hebergements/small/aw-creative-VGs8z60yT2c-unsplash.jpg");
-  background-size: cover;
-  background-position: center;
+  object-fit: cover;
   border-radius: 15px 0px 0px 15px;
   width: 30%;
   min-width: 90px;
   height: 100px;
 }
 #imgPopulaires3 {
-  background-image: url("img/hebergements/small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
-  background-size: cover;
-  background-position: center;
+  object-fit: cover;
   border-radius: 15px 0px 0px 15px;
   width: 30%;
   min-width: 90px;
@@ -475,12 +458,32 @@ a {
 }
 .boxLargeActivites {
   display: flex;
+
   flex-direction: column;
   background-color: white;
   border-radius: 15px 15px 15px 15px;
   width: 230px;
   height: 100%;
+
   box-shadow: 0px 5px 5px #f2f2f2;
+}
+.imgLargeActivitesOver {
+  overflow: hidden;
+  width: 100%;
+  height: 290px;
+  border-radius: 15px 15px 0px 0px;
+}
+.imgMediumActivitesOver {
+  overflow: hidden;
+  width: 100%;
+  height: 130px;
+  border-radius: 15px 15px 0px 0px;
+}
+.imgSmallActivitesOver {
+  overflow: hidden;
+  width: 100%;
+  height: 90px;
+  border-radius: 15px 15px 0px 0px;
 }
 .boxLargeActivites h3 {
   margin: 10px;
@@ -504,52 +507,37 @@ a {
   font-size: 14px;
 }
 #imgActivites1 {
-  background-image: url("img/activites/small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
-  background-size: 500px;
-  background-position: top;
-  width: 100%;
-  height: 290px;
-  border-radius: 15px 15px 0px 0px;
+  object-fit: cover;
+  position: relative;
+  right: 18px;
+  width: 110%;
+  height: 113%;
 }
 #imgActivites2 {
-  background-image: url("img/activites/small/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
-  background-size: cover;
-  background-position-y: -90px;
-  width: 100%;
-  height: 130px;
-  border-radius: 15px 15px 0px 0px;
+  object-fit: cover;
+  width: 105%;
+  height: 120%;
 }
 #imgActivites3 {
-  background-image: url("img/activites/small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
-  background-size: 230px;
-  background-position-y: -20px;
-  width: 100%;
-  height: 80px;
-  border-radius: 15px 15px 0px 0px;
+  object-fit: cover;
+  width: 110%;
+  height: 150%;
 }
 #imgActivites4 {
-  background-image: url("img/activites/small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
-  background-size: 500px;
-  background-position: top;
-  filter: brightness(120%);
-  width: 100%;
-  height: 290px;
-  border-radius: 15px 15px 0px 0px;
+  filter: brightness(130%) saturate(110%) contrast(90%);
+  object-fit: cover;
+  width: 110%;
+  height: 113%;
 }
 #imgActivites5 {
-  background-image: url("img/activites/small/florian-wehde-xW9e8gdotxI-unsplash.jpg");
-  background-size: 230px;
-  background-position-y: -10px;
+  object-fit: cover;
   width: 100%;
-  height: 80px;
-  border-radius: 15px 15px 0px 0px;
+  height: 150%;
 }
 #imgActivites6 {
-  background-image: url("img/activites/small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
-  background-size: cover;
+  object-fit: cover;
   width: 100%;
-  height: 130px;
-  border-radius: 15px 15px 0px 0px;
+  height: 140%;
 }
 /*End Section 3*/
 /*Start Footer*/
@@ -918,6 +906,15 @@ a {
     margin-bottom: 20px;
     box-shadow: 1px 5px 5px #f2f2f2;
   }
+  .imgLargeActivitesOver {
+    height: 120px;
+  }
+  .imgMediumActivitesOver {
+    height: 120px;
+  }
+  .imgSmallActivitesOver {
+    height: 120px;
+  }
   .boxSmallActivites {
     width: 100%;
     margin-bottom: 20px;
@@ -930,33 +927,19 @@ a {
     margin: 15px;
   }
   #imgActivites1 {
-    height: 120px;
-    background-size: 100%;
-    background-position: top;
-    background-position-y: -20px;
+    height: 150%;
   }
   #imgActivites2 {
-    height: 120px;
-    background-position-y: -160px;
+    height: 140%;
+    width: 100%;
   }
   #imgActivites3 {
-    height: 120px;
-    background-size: cover;
+    height: 130%;
   }
   #imgActivites4 {
-    height: 120px;
-    background-size: cover;
-    background-position-y: -25px;
+    height: 140%;
   }
-  #imgActivites5 {
-    height: 120px;
-    background-size: cover;
-  }
-  #imgActivites6 {
-    height: 120px;
-    background-position: top;
-    background-position-y: -35px;
-  }
+
   #footerBack {
     margin-top: 0px;
     margin-left: -10px;
